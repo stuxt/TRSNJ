@@ -1,20 +1,18 @@
 @charset "utf-8";
+/* TRS WEB style 初始化样式 */
+/* 初始化CSS */
 /*
-    Document   : TRS CSS样式初始化
-    Created on : 2014.6.1
-    Author     :TRS-NJ-FEGROUP
-	Update on  :2015.5.6
-	Update content:reset css增加,设置css修正
-    Description:
-        CSS样式表的初始化，全局样式设置。部分样式属性请根据具体页面重置其属性
-        导入方式：<link href="images/trs_web_styleV2.0.css" rel="stylesheet" type="text/css" />
+ {
+	margin: 0px;
+	padding: 0px;
+}
 */
-        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,select,span,applet,object,iframe { margin:0px; padding:0px;}
-		body{font-size:12px; -webkit-text-size-adjust: none; /* fix Chrome 12 px limit */}
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td { margin:0px; padding:0px;}
+		body{font-size:12px;}
         fieldset, img{ border:none; }
 		em{font-style:normal;}
-        fieldset,img{border:0;vertical-align:middle;}
-        dl,ul,ol,menu,li { list-style:none; }
+        img{border:0;vertical-align:middle;}
+        ul, ol { list-style:none; }
 		li{list-style-type:none;}
 		p{word-wrap:break-word}
 		h1, h2, h3, h4, h5, h6 { font-size:100%;}
@@ -27,11 +25,10 @@
 		.clearfix:before, .clearfix:after {
 				content: "";
 				display: table;
-				clear:both;
 		}
         .clear{ clear:both;}
-        .cleft{ clear:left;}
-		.cright{ clear:right;}
+        .clearleft{ clear:left;}
+		.clearright{ clear:right;}
 		.left{ float:left;}
 		.right{ float:right;}
 
@@ -167,13 +164,10 @@
 			.line_34 {line-height:34px;}
             .line_35 {line-height:35px;}
 			.line_36 {line-height:36px;}
-			.line_38 {line-height:38px;}
-			.line_40 {line-height:40px;}
-			.line_42 {line-height:42px;}
 
 	/*文本样式*/
 			.font_st{font-family:"宋体";}
-			.font_yh{font-family:"微软雅黑", 'Microsoft YaHei';}
+			.font_msyh{font-family:"微软雅黑", 'Microsoft YaHei';}
 			.font12{ font-size:12px;}
 			.font14{ font-size:14px;}
 			.font16{ font-size:16px;}
@@ -181,7 +175,7 @@
 			.font20{ font-size:20px;}
 			.fb{ font-weight:bold;}
 			.fw{font-weight:normal;}
-			.t_ind{text-indent:2em;}
+			.ind{text-indent:2em;}
 
 			.t_left{text-align:left;}/*居左*/
             .t_center{text-align:center;}/*居中*/
@@ -203,3 +197,68 @@
         #footer_1000 p{line-height:20px;}
         #footer_1000 p a:link,.footer_1000 p a:visited{text-decoration:none;}
         #footer_1000 p a:hover,.footer_1000 p a:active{text-decoration:underline;}
+        #footer_1000 .ft-info{padding:7px 0;margin-bottom: 10px;}
+        #footer_1000 .ft-info a:hover,.footer_1000 .ft-info a:active{text-decoration:underline;}
+        #footer_1000 .ft-list{margin:10px 0 8px 0;width:100%;height:50px;}
+        #footer_1000 .ft-list li{float:left;display: inline;margin:0 1px 0 0;}
+
+
+	/****弹出层css*****/
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	a.close-reveal-modal:hover {color: #fff;background: #FF7777;}
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		max-height:450px;
+		overflow-y:auto; 
+		overflow-x:hidden;
+		border: 10px solid #DEDEDE;
+		left: 50%;
+		margin-left: -300px;
+		width: 520px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		position: absolute;
+		line-height: 23px;
+		height: 23px;
+		width: 23px;
+		top: 12px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		text-decoration:none;
+		} 
+

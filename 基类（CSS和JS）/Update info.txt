@@ -1,0 +1,11 @@
+----------20150506 update----------
+对部分class名字做了修改，对部分常用css做了新增，删除了不常用css
+<add>:
+1、select,span,applet,object,iframe { margin:0px; padding:0px;}
+2、body{-webkit-text-size-adjust: none; /* fix Chrome 12 px limit */}
+3、.clearfix:before, .clearfix:after {content: ""; display: table; clear:both; }
+
+<edtior>:
+下面两个名字做了修改
+1 、  .cleft{ clear:left;}
+2、   .cright{ clear:right;}

@@ -2,8 +2,8 @@
 
 .warp{ width: 100%; font-family: "microsoft yahei";}
 
-.header{ height: 350px; width: 100%; background-color: #E78170; color: #fff;}
-.topBarBox{ width: 100%;position: fixed; background-color: #E78170;}
+.header{ height: 350px; width: 100%; background-color: #003366; color: #fff;}
+.topBarBox{ width: 100%;position: fixed; background-color: #003366;}
 .topBar{ height: 50px; line-height: 50px; overflow: hidden; width: 1000px; margin: 0 auto;}
 .topBar .logo{ font-size: 30px; font-weight: bold; width: 200px; float: left; text-align: left;}
 .topBar .about{ font-size: 14px; width: 250px; float: right; text-align: right;}
@@ -36,4 +36,4 @@
 .other{ background-color: #826762;}
 
 
-.footer{ width: 100%; padding: 20px 0; font-size: 14px; color: #fff; background-color: #E78170; text-align: center;}
+.footer{ width: 100%; padding: 20px 0; font-size: 14px; color: #fff; background-color: #003366; text-align: center;}

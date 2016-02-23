@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+.warp{ width: 100%; font-family: "microsoft yahei";}
+
+.header{ height: 350px; width: 100%; background-color: #E78170; color: #fff;}
+.topBarBox{ width: 100%;position: fixed; background-color: #E78170;}
+.topBar{ height: 50px; line-height: 50px; overflow: hidden; width: 1000px; margin: 0 auto;}
+.topBar .logo{ font-size: 30px; font-weight: bold; width: 200px; float: left; text-align: left;}
+.topBar .about{ font-size: 14px; width: 250px; float: right; text-align: right;}
+.topBar .about a{ color: #fff; padding: 0 20px;}
+
+.bannerWord{width: 1000px; margin: 0 auto; text-align: center;  padding-top: 90px;}
+.bannerWord .logoTitle{ font-size: 40px;  font-weight: bold; margin: 10px auto;}
+.subScribe{ font-size: 20px; margin: 10px auto;}
+.bannerWord .btn{ font-size: 16px; width: 100px; border:2px solid rgba(255, 255, 255, 0.62); border-radius: 2px;
+ cursor: pointer; margin: 10px auto; margin-top: 40px; padding: 10px 0;}
+ .bannerWord .btn:hover{ border-color: #fff; }
+ .bannerWord .btn a{ color: #fff; text-decoration: none;}
+
+.list{ width: 1000px; margin: 0 auto; margin-top: 0px; }
+// .title{ text-align: center; font-size: 24px; padding: 20px 0; color: #fff; font-weight: bold; background-color: #525252;}
+
+.item{width: 998px; margin:20px 0; border:1px solid #eee;}
+.item .ititle{ font-size: 20px; text-indent: 1em; padding: 10px 0; color: #fff;}
+.ilist{ width: 98%; margin: 10px auto;}
+.ilist ul{ overflow: hidden;}
+.ilist li{ float:left;margin: 10px;  font-size: 14px; background-color: #eee; color: #B9B7B7; border-left: 4px solid #f57e42;}
+.ilist li a{ display: block;padding:15px; color: #555555;}
+.ilist li a:hover{ color: #f57e42; text-decoration: none;}
+
+.composeite{ background-color: #049EB1;}
+.CSS{ background-color: #4E8858;}
+.js{ background-color: #FB9100;}
+.html{ background-color: #37ACCB;}
+.desigen{ background-color: #FB7C85;}
+.other{ background-color: #826762;}
+
+
+.footer{ width: 100%; padding: 20px 0; font-size: 14px; color: #fff; background-color: #E78170; text-align: center;}

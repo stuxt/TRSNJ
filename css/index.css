@@ -26,6 +26,7 @@
 .ilist ul{ overflow: hidden;}
 .ilist li{ float:left;margin: 10px;  font-size: 14px; background-color: #eee; color: #B9B7B7; border-left: 4px solid #f57e42;}
 .ilist li a{ display: block;padding:15px; color: #555555;}
+.ilist li a b{ color: #f00;}
 .ilist li a:hover{ color: #f57e42; text-decoration: none;}
 
 .composeite{ background-color: #049EB1;}

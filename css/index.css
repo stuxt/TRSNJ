@@ -21,20 +21,23 @@
 // .title{ text-align: center; font-size: 24px; padding: 20px 0; color: #fff; font-weight: bold; background-color: #525252;}
 
 .item{width: 998px; margin:20px 0; border:1px solid #eee;}
-.item .ititle{ font-size: 20px; text-indent: 1em; padding: 10px 0; color: #fff;}
+.item .ititle{ font-size: 20px; text-indent: 1em; padding: 10px 0; color: #fff; background-color: #049EB1;}
 .ilist{ width: 98%; margin: 10px auto;}
 .ilist ul{ overflow: hidden;}
-.ilist li{ float:left;margin: 10px;  font-size: 14px; background-color: #eee; color: #B9B7B7; border-left: 4px solid #f57e42;}
-.ilist li a{ display: block;padding:15px; color: #555555;}
-.ilist li a b{ color: #f00;}
-.ilist li a:hover{ color: #f57e42; text-decoration: none;}
+.ilist li{ float:left; margin: 5px; font-size: 14px; height: 95px; background-color: #eee; color: #B9B7B7;
+ border-left: 3px solid #eee; overflow: hidden;}
+.ilist li:hover{  border-left: 3px solid #f57e42;}
+.ilist li a{ display: block; color: #aaa;width:220px; padding:5px;}
+.ilist li a h2{ color: #049EB1; font-size: 16px; margin-bottom: 5px;}
+.ilist li a:hover h2{ color: #f57e42;}
+.ilist li a b{ color: #f00; margin-right: 5px; font-weight: bold;}
+.ilist li a:hover{ text-decoration: none;}
 
-.composeite{ background-color: #049EB1;}
-.CSS{ background-color: #4E8858;}
-.js{ background-color: #FB9100;}
-.html{ background-color: #37ACCB;}
-.desigen{ background-color: #FB7C85;}
-.other{ background-color: #826762;}
-
+// .composeite{ background-color: #049EB1;}
+// .CSS{ background-color: #4E8858;}
+// .js{ background-color: #FB9100;}
+// .html{ background-color: #37ACCB;}
+// .desigen{ background-color: #FB7C85;}
+// .other{ background-color: #826762;}
 
 .footer{ width: 100%; padding: 20px 0; font-size: 14px; color: #fff; background-color: #E78170; text-align: center;}
